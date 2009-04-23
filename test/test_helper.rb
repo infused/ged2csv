@@ -4,7 +4,7 @@ require 'shoulda'
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
-require 'ged2csv_v3'
+require 'ged2csv'
 
 class Test::Unit::TestCase
 end
