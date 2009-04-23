@@ -1,7 +1,28 @@
 = ged2csv-v3
 
-Description goes here.
+The purpose of this gem is to replicate the delimited file output of the v2.7.0.0 of the original
+ged2csv delphi windows program. Given the same input and set of options, this gem should output identical files
+to those of v2.7.0.0.
 
+== Output
+
+When fed a gedcom file, the gem should emits 7 delimited text files.  The filenames are customizable, but the
+default filenames are:
+
+  * citation_list.txt
+  * fact_list.txt
+  * family_list.txt
+  * individual_list.txt
+  * note_list.txt
+  * relationship_list.txt
+  * source_list.txt
+  
+== Output options
+
+  * record delimiter
+  * output filenames should be configurable
+  
+  
 == Copyright
 
 Copyright (c) 2009 Keith Morrison. See LICENSE for details.
