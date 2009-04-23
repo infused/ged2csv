@@ -27,6 +27,11 @@ default filenames are:
   * record delimiter default:,
   * quote character default:"
   
+== Implementation Details
+
+  * Only the first NAME record for each individual is output. Subsequent NAME tags are ignored
+  * ALIAses are not supported
+  
 == Copyright
 
 Copyright (c) 2009 Keith Morrison. See LICENSE for details.
