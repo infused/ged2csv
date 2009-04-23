@@ -1,0 +1,13 @@
+= Families
+
+The record fields are defined below in the following format. 
+Record Name ; Record Length ; Description
+
+FamKey ; 20 ; A unique number for the family.  This number is the unmodified record identifier for the family from the source gedcom file.
+Spouse1 ; 20 ; IndKey identifying the Husband
+Spouse2 ; 20 ; IndKey identifying the Wife
+EndStatus ; 120 ; Reason for the end of the marriage; divorse, death of one spouse, etc
+NoteKey ; 20 ; Unique number for notes attached to this marriage
+
+Delimited File Example:
+"F0042","I0002","I0003","Divorce","N0908"

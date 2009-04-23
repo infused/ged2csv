@@ -19,9 +19,13 @@ default filenames are:
   
 == Output options
 
-  * record delimiter
+  * Remove notes from quotes and sources <boolean> (verify implementation)
+  * Paragraph separator default:<br>
+  * Wrap note lines. if populated re-wraps lines to the desired length
+  * output directory
   * output filenames should be configurable
-  
+  * record delimiter default:,
+  * quote character default:"
   
 == Copyright
 

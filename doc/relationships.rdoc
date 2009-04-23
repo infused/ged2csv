@@ -1,0 +1,10 @@
+= Relationships
+
+The record fields are defined below in the following format. 
+Record Name ; Record Length ; Description
+
+IndKey ; 20 ; Unique identifier of the individual
+FamKey ; 20 ; Unique identifier of the family
+
+Delimited File Example: 
+"I0002","F0001"

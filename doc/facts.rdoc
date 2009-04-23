@@ -1,0 +1,14 @@
+== Facts
+
+The record fields are defined below in the following format. 
+Record Name ; Record Length ; Description
+
+IndFamKey ; 20 ; The unique number for the individual or family that the fact belongs to.  This number is the unmodified record identifier for the individual or family from the source gedcom file.
+Type ; 35 ; Type of fact, such as Birth, Death, Baptism, Burial, etc
+Date ; 35 ; Date when the fact occurred.  The date format is the same as that used in the source gedcom file.  The format is not modified by ged2csv
+
+Place/Comments ; 120 ; Place that the fact occurred or comments about the fact
+FactKey ; 20 ; Unique number assigned automatically by ged2csv.
+
+Delimited File Example:
+"I0002","5 Jan 1965","Birth","Paris, France","876"

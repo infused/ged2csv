@@ -1,0 +1,11 @@
+= Citations
+
+The record fields are defined below in the following format. 
+Record Name ; Record Length ; Description
+
+FactKey ; 20 ; Unique identifier for the fact
+SrcKey ; 20 ; Unique identifier for the master source to which the citation is attached
+Source ; 65,535 ; Contains information about the citation
+
+Delimited File Example:
+"27","S75","District 109, Sub-District E, Page 66<br>"

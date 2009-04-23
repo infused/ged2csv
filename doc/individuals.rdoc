@@ -1,0 +1,16 @@
+= Individuals
+
+The record fields are defined below in the following format. 
+Record Name ; Record Length ; Description
+
+IndKey ; 20 ; A unique number for the individual.  This number is the unmodified record identifier for the individual from the source gedcom file
+Title ; 120 ; Official or unofficial title
+Surname ; 120 ; Last name
+GivenName ; 120 ; First and middle names
+Aka ; 120 ; Also Known As or nickname
+Sex ; 7 ; Male, Female, or Unknown
+
+NoteKey ; 20 ; Unique number for notes attached to this individual
+
+Delimited File Example:
+"I0002","Duke of Smithville","Smith","Robert","Bob","M","N0005"

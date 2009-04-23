@@ -1,0 +1,10 @@
+= Notes
+
+The record fields are defined below in the following format. 
+Record Name ; Record Length ; Description
+
+NoteKey ; 20 ; A unique number for the note record. This number is the unmodified record identifier for the note from the source gedcom file
+Text ; 65,535 ; Text of the note
+
+Delimited File Example:
+"N0001","Bob married his high school sweetheart."
