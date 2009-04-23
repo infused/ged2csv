@@ -1,3 +1,4 @@
 require 'rubygems'
-gem 'ansel_iconv'
-require 'ged2csv/convert'
+require 'activesupport'
+require 'ansel_iconv'
+require 'ged2csv/transformation'
