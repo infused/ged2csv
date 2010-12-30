@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   
   s.required_rubygems_version = '>= 1.3.0'
-  s.add_dependency 'ansel_iconv', '~> 1.1.5'
+  s.add_dependency 'ansel_iconv', '~> 1.1.6'
   s.add_development_dependency 'rspec', '~> 2.3.0'
 end
