@@ -5,8 +5,6 @@ require 'rubygems'
 require 'rspec'
 require 'ged2csv'
 
-DB_PATH = File.dirname(__FILE__) + '/fixtures' unless defined?(DB_PATH)
-
 RSpec.configure do |config|
   
 end
