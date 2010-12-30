@@ -1,4 +1,4 @@
-= ged2csv-v3
+= ged2csv
 
 The purpose of this gem is to replicate the delimited file output of the v2.7.0.0 of the original
 ged2csv delphi windows program. Given the same input and set of options, this gem should output identical files

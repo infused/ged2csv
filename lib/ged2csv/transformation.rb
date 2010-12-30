@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 module Ged2Csv
   module Transformation
     class DelimitedFile
@@ -5,7 +7,6 @@ module Ged2Csv
       @@record_delimiter = ','
       
       def initialize
-        
         yield self if block_given?
       end
       
