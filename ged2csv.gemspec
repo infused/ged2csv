@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.homepage = 'http://github.com/infused/ged2csv'
   
   s.rdoc_options = ['--charset=UTF-8']
-  s.extra_rdoc_files = ['README.md', 'CHANGELOG.md', 'LICENSE']
+  s.extra_rdoc_files = ['README.rdoc', 'LICENSE']
   s.files = Dir['[A-Z]*', '{docs,lib,spec}/**/*']
   s.test_files = Dir.glob('spec/**/*_spec.rb')
   s.require_paths = ['lib']
