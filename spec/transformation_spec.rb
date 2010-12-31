@@ -14,9 +14,18 @@ describe Ged2Csv do
       @transformation.record_delimiter.should == ','
     end
     
-    it 'defaults the quote_character to a double-quote'
-    it 'defaults the paragraph_seperator to <br>'
-    it 'defaults wrap_notes to 72'
+    it 'defaults the quote_character to a double-quote' do
+      @transformation.quote_character.should == '"'
+    end
+    
+    it 'defaults the paragraph_separator to <br />' do
+      @transformation.paragraph_separator.should == '<br />'
+    end
+    
+    it 'defaults wrap_notes to 72' do
+      @transformation.wrap_notes.should == 72
+    end
+    
     it 'defaults the output_directory to "./"'
     it 'should have a default citation_filename'
     it 'should have a default the fact_filename'
