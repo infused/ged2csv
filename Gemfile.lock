@@ -5,7 +5,7 @@ PATH
       ansel_iconv (~> 1.1.6)
 
 GEM
-  remote: https:://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     ansel_iconv (1.1.6)
     diff-lcs (1.1.2)
